@@ -1,7 +1,7 @@
 
-################################################################
-# Dockerfile to build unittest container for hit/getHit function
-################################################################
+##################################################################
+# Dockerfile to build unittest container for hit/getHit function #
+##################################################################
 
 # Base image is python
 FROM python:latest
@@ -18,5 +18,5 @@ ADD src/ /src/
 # Change the working directory to /src/
 WORKDIR /src/
 
-# Make unittest as the default execution
+# Make unittest as the default execution...
 ENTRYPOINT python3 -m unittest
