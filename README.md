@@ -1,1 +1,1 @@
-# tst
+This is a sample project
